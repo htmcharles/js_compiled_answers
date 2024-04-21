@@ -1,0 +1,7 @@
+function sortStringAlphabetically(str) {
+    // Convert the string to an array of characters, sort it alphabetically, and join it back into a string
+    return str.split('').sort().join('');
+}
+
+// Test the function
+console.log(sortStringAlphabetically('webmaster')); // Output: 'abeemrstw'
